@@ -1,7 +1,7 @@
 services:
   db:
     image: postgres:latest
-    container_name: postgres_db
+    container_name: CoffeeGuideDB
     environment:
       POSTGRES_USER: user
       POSTGRES_PASSWORD: password
